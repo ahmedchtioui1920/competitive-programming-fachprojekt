@@ -19,15 +19,15 @@ Ziel ist es, verschiedene algorithmische Themen systematisch zu bearbeiten, die 
 
 ## Lernpfad
 
-1. Grundlagen der Programmierung und Ein-/Ausgabe (01_tipps_und_tricks)  
-2. Einführung in Datenstrukturen und Entwurfsmethoden (02_datenstrukturen_entwurfsmethoden)  
-3. Such- und Sortieralgorithmen (03_such_und_sortieralgorithmen)  
-4. Dynamische Programmierung (04_dynamische_programmierung)  
-5. String-Algorithmen (05_strings)  
-6. Graphenalgorithmen (06_graphtraversierung)  
-7. Flussalgorithmen und Matching-Probleme (07_flussalgorithmen_matchings)  
-8. Algorithmische Geometrie (08_geometrie)  
-9. Übungswettbewerbe / Contests (contests/)
+1. Grundlagen der Programmierung und Ein-/Ausgabe 
+2. Einführung in Datenstrukturen und Entwurfsmethoden 
+3. Such- und Sortieralgorithmen  
+4. Dynamische Programmierung 
+5. String-Algorithmen 
+6. Graphenalgorithmen 
+7. Flussalgorithmen und Matching-Probleme 
+8. Algorithmische Geometrie 
+9. Übungswettbewerbe / Contests 
 
 ## Hinweise
 
