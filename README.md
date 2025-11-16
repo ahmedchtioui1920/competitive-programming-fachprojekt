@@ -1,56 +1,36 @@
-# 🏆 Fachprojekt: Algorithms for Competitive Programming
+# Fachprojekt: Algorithms for Competitive Programming
 
 **Universität – Wintersemester 2025/26**
 
-Dieses Repository dokumentiert mein Fachprojekt **"Algorithms for Competitive Programming"**.
-Ziel des Projekts ist es, meine **algorithmische Denkweise, Datenstrukturenkenntnisse und Problemlösekompetenz** praxisnah zu vertiefen, analog zu Programmierwettbewerben wie ICPC oder Codeforces.
+Dieses Repository dokumentiert das Fachprojekt **"Algorithms for Competitive Programming"**.  
+Ziel ist es, verschiedene algorithmische Themen systematisch zu bearbeiten, die Lösungen in Java umzusetzen und Laufzeit sowie Speicherbedarf zu analysieren.
 
-Es zeigt meinen **systematischen Lernpfad**, meine **Java-Lösungen** für verschiedene algorithmische Herausforderungen und **kommentierte Analysen** zu Laufzeit und Speicherbedarf.
+## Repository-Struktur
 
-## 📂 Repository-Struktur
+- `01_tipps_und_tricks/` – Erste Übungsaufgaben: DOMjudge, Ein-/Ausgabe, einfache Automatisierungen
+- `02_datenstrukturen_entwurfsmethoden/` – Arrays, Listen, Stacks, Queues, Heaps, grundlegende Entwurfsmethoden
+- `03_such_und_sortieralgorithmen/` – Such- und Sortieralgorithmen
+- `04_dynamische_programmierung/` – Dynamische Programmierung, Optimierungsprobleme
+- `05_strings/` – Strings, Pattern Matching, KMP, Rolling Hash
+- `06_graphtraversierung/` – Graphen, DFS, BFS, MST, Topologischer Sortierung
+- `07_flussalgorithmen_matchings/` – Flussalgorithmen, Matching-Probleme, Edmonds-Karp, Dinic
+- `08_geometrie/` – Algorithmische Geometrie, Linien, Segmente, Konvexe Hülle
+- `contests/` – Übungswettbewerbe mit mehreren Aufgaben, simulierter Contest
 
-Die Ordnerstruktur ist wie folgt:
-- 01_tipps_und_tricks
-- 02_datenstrukturen_entwurfsmethoden
-- 03_such_und_sortieralgorithmen
-- 04_dynamische_programmierung
-- 05_strings
-- 06_graphtraversierung
-- 07_flussalgorithmen_matchings
-- 08_geometrie
-- contests/contest1
-- contests/contest2
+## Lernpfad
 
-## 🎯 Lernziele & Projektzweck
+1. Grundlagen der Programmierung und Ein-/Ausgabe (01_tipps_und_tricks)  
+2. Einführung in Datenstrukturen und Entwurfsmethoden (02_datenstrukturen_entwurfsmethoden)  
+3. Such- und Sortieralgorithmen (03_such_und_sortieralgorithmen)  
+4. Dynamische Programmierung (04_dynamische_programmierung)  
+5. String-Algorithmen (05_strings)  
+6. Graphenalgorithmen (06_graphtraversierung)  
+7. Flussalgorithmen und Matching-Probleme (07_flussalgorithmen_matchings)  
+8. Algorithmische Geometrie (08_geometrie)  
+9. Übungswettbewerbe / Contests (contests/)
 
-- Grundlagen festigen: Scanner, Schleifen, Ein-/Ausgabe und einfache Automatisierung (01_tipps_und_tricks)
-- Datenstrukturen & Entwurfsmethoden: Arrays, Listen, Stacks, Queues, Heaps (02_datenstrukturen_entwurfsmethoden)
-- Such- & Sortieralgorithmen: Effiziente Suche und Sortierung (03_such_und_sortieralgorithmen)
-- Dynamische Programmierung: Optimierungsaufgaben und Teilproblemlösungen (04_dynamische_programmierung)
-- Strings & Pattern Matching: KMP, Rolling Hash, Z-Algorithmus (05_strings)
-- Graphen & Traversierung: DFS, BFS, MST, Topological Sort (06_graphtraversierung)
-- Flussalgorithmen & Matchings: Edmonds-Karp, Dinic, Matching-Probleme (07_flussalgorithmen_matchings)
-- Algorithmische Geometrie: Linien, Segmente, Konvexe Hülle (08_geometrie)
-- Contest-Simulation: Übungswettbewerbe für schnelle Problemlösung (contests/)
+## Hinweise
 
-## ⚙️ Technologien & Tools
-
-- Programmiersprache: Java
-- IDE / Tools: IntelliJ IDEA, VS Code
-- Versionierung: Git + GitHub
-- Fokus: effiziente Algorithmen, saubere Implementierung, Laufzeit- und Speicheranalyse
-
-## 📌 Was Recruiter hier sehen
-
-Dieses Repository zeigt:
-1. Strukturiertes Lernen: Jede Woche ein neues Thema mit praktischen Aufgaben
-2. Java-Kompetenz: Sauberer, gut dokumentierter Code
-3. Algorithmische Stärke: Von Grundlagen bis Graphen, DP und Geometrie
-4. Problem-Solving: Aufgaben wie in realen Coding Contests
-5. Analytisches Denken: Jede Aufgabe wird kommentiert und Laufzeit bewertet
-
-## 📖 Hinweise
-
-Alle Lösungen sind im Rahmen des Fachprojekts erstellt.
-Sie dienen dem Lernen, Üben und Nachvollziehen von Algorithmen.
-Testfälle sind direkt im Code implementiert oder kommentiert.
+- Alle Aufgaben sind in Java implementiert.  
+- Jede Aufgabe enthält: Problemstellung, Lösungsansatz, Implementierung, Laufzeit- und Speicheranalyse.  
+- Dieses Repository dient als Dokumentation und Lernarchiv des Fachprojekts.
