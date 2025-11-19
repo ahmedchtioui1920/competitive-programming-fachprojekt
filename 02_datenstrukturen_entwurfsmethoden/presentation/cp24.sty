@@ -1,0 +1,125 @@
+
+\ProvidesPackage{CP24}
+% \documentclass[aspectratio=169,xcolor=dvipsnames, t, handout]{beamer}
+
+\usepackage[ngerman]{babel}
+\usepackage{fancybox}
+\usepackage{amsmath,caption}
+
+
+% HHU BLAU
+
+\definecolor{tu_green_full}{HTML}{5F8411}
+\definecolor{tu_green_full2}{HTML}{40580C}
+\definecolor{tu_green_full3}{HTML}{83B818}
+%83B818
+%6A9513
+%5F8411
+% EIS BLAU
+
+\definecolor{tu_light_green_full}{HTML}{A8CA60}
+\definecolor{tu_light_green_full2}{HTML}{C9DCA3}
+\definecolor{tu_light_green_full3}{HTML}{E4EED0}
+
+
+\hypersetup{
+colorlinks=true,
+linkcolor=tu_green_full
+}
+
+\setbeamerfont{section number projected}{%
+  family=\rmfamily,series=\bfseries,size=\normalsize}
+\setbeamercolor{section number projected}{bg=tu_green_full,fg=white}
+
+
+\usepackage{beamerthemesplit}
+
+\usetheme[]{Boadilla}
+
+
+
+%\setbeamercolor{bibliography item}{parent=palette primary}
+%\setbeamercolor*{bibliography entry title}{parent=palette primary}
+
+\setbeamercolor{bibliography entry author}{fg=tu_green_full}
+\setbeamercolor{bibliography entry title}{fg=tu_green_full3} 
+\setbeamercolor{bibliography entry location}{fg=tu_green_full} 
+\setbeamercolor{bibliography entry note}{fg=tu_green_full}  
+
+
+
+
+
+%\usetheme[secheader]{Boadilla}
+
+\setbeamercolor{frametitle}{fg=tu_green_full,bg=tu_light_green_full3}
+
+
+
+\setbeamercolor{title}{fg=tu_green_full,bg=tu_light_green_full3}%white}
+
+\setbeamercolor{item}{fg=tu_green_full3}
+
+
+\setbeamercolor{my_c1}{fg=tu_green_full2,bg=tu_light_green_full}
+\setbeamercolor{my_c2}{fg=tu_green_full,bg=tu_light_green_full2}
+\setbeamercolor{my_c3}{fg=tu_green_full,bg=tu_light_green_full3}
+\setbeamercolor{my_c4}{fg=tu_green_full2,bg=tu_light_green_full2}
+
+
+
+\setbeamercolor{block title}{bg=tu_light_green_full,fg=tu_green_full2}
+%\setbeamercolor{block body}{bg=hhu_blue_full4,fg=black}
+
+
+
+%\usetheme[]{Berlin}
+
+\setbeamertemplate{headline}%{infolines theme}
+{
+\leavevmode%
+\hbox{%
+\begin{beamercolorbox}[wd=1\paperwidth,ht=2.25ex,dp=1ex,center]{my_c4}%
+\setbeamercolor{section in head/foot}{fg=tu_green_full2, bg=tu_light_green_full2}
+\usebeamerfont{author in head/foot}\insertsectionnavigationhorizontal{\paperwidth}{}{}
+\end{beamercolorbox}} 
+%\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{my_c2}%
+%\usebeamerfont{date in head/foot}\insertsubsection\hspace*{2ex} 
+%\end{beamercolorbox}}%
+%\vskip0pt%
+}
+
+
+\captionsetup[figure]{margin=10pt,font=scriptsize,labelfont=bf,format=plain,labelsep=period}
+
+%\setbeamercolor{caption}{fg=tu_green_full3}
+\setbeamertemplate{footline}[frame number]{}
+
+% \setbeamertemplate{footline}%{infolines theme}
+% {
+% \leavevmode%
+% \hbox{%
+% \begin{beamercolorbox}[wd=.14\paperwidth,ht=2.25ex,dp=1ex,center]{my_c1}%
+% \usebeamerfont{author in head/foot}\insertshortauthor%~~(\insertshortinstitute)
+% \end{beamercolorbox}%
+% \begin{beamercolorbox}[wd=0.63\paperwidth,ht=2.25ex,dp=1ex,center]{my_c2}%
+% \usebeamerfont{title in head/foot}\insertshorttitle
+% \end{beamercolorbox}%
+% \begin{beamercolorbox}[wd=.23\paperwidth,ht=2.25ex,dp=1ex,right]{my_c3}%
+% \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{1em}
+% \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+% \end{beamercolorbox}}%
+% \vskip0pt%
+% }
+
+
+
+%\setbeamerfont{itemize/enumerate body}{size=\scriptsize}
+%\setbeamerfont{itemize/enumerate subbody}{size=\footnotesize}
+%\setbeamerfont{itemize/enumerate subsubbody}{size=\scriptsize}
+
+
+%
+% pdflatex or
+% xpdf or.pdf
+%
